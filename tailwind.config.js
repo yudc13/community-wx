@@ -25,6 +25,9 @@ module.exports = {
   },
   exclude: [/([0-9]{1,}[.][0-9]*)$/],
   theme: {
+    colors: {
+      primary: "#1CCCB7",
+    },
     width: (theme) => ({
       auto: "auto",
       full: "100%",
